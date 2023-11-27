@@ -13,16 +13,24 @@ ul {list-style-type: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     } */
-.studio-header {color: #2E2F42;
+/* .studio-logo {color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;}
-    
-.studio-footer {color: #F4F4FD;
+    color: #4d5ae5;} */
+.studio-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+/* .studio-footer {color: #F4F4FD;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -30,7 +38,7 @@ ul {list-style-type: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-size: 18px;
-    }
+    } */
     /* прибрав підкреслення з посилань */
 .link {text-decoration: none;}
 /* Studio Portfolio Contacts */
@@ -159,7 +167,13 @@ cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.32px;}
 .footer {background-color: #2E2F42;}
-
+.studio-logo {font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;}
 
 
   
