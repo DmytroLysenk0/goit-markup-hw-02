@@ -4,7 +4,8 @@ body {font-family: "Roboto", sans-serif;
 /* del markers ul */
 ul {list-style-type: none;}
 /* header */
-.web {color: #4D5AE5;
+
+/* .web {color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -12,7 +13,7 @@ ul {list-style-type: none;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    }
+    } */
 .studio-header {color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,30 +22,27 @@ ul {list-style-type: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;}
-.nav-link-studio {color: #2e2f42;}
-    
-.studio-footer {color: #F4F4FD;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
+.nav {font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-size: 18px;
-    }
+color: #4d5ae5;}   
+
     /* прибрав підкреслення з посилань */
 .link {text-decoration: none;}
 /* Studio Portfolio Contacts */
-.nav .link {color:#2E2F42;
+.nav-list .link {color:#2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;}
-.nav .link:hover {color: #404BBF;}
-.nav .link:focus {color: #404bbf;}
-.nav .link:active {color: #404BBF;}
+.nav-list .link:hover {color: #404BBF;}
+.nav-list .link:focus {color: #404bbf;}
+.nav-list .link:active {color: #404BBF;}
 
 /* contacts header */
 .contacts-list .link {font-family: Roboto;
@@ -160,7 +158,15 @@ cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.32px;}
 .footer {background-color: #2E2F42;}
-
+.studio-footer {color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 18px;
+    }
 
 
   
