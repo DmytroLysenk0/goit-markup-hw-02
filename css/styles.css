@@ -46,14 +46,12 @@ color: #4d5ae5;}
 /* секція Герой ???? чи фон чи зображення ??? */
 .hero {background-color: #2E2F42;}
 /* заголовок */
-.title-hero {color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
+.title-text {font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 1.12px;}
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;}
+
 /* button */
 .button {background-color: #4D5AE5;}
 .button:hover {background-color: #404BBF;
