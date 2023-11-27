@@ -28,7 +28,9 @@ ul {list-style-type: none;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-color: #4d5ae5;}   
+    color: #4d5ae5;}   
+
+.link-logo {color: #4d5ae5;}
 
     /* прибрав підкреслення з посилань */
 .link {text-decoration: none;}
