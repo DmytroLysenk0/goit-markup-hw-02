@@ -46,7 +46,7 @@ color: #4d5ae5;}
 /* секція Герой ???? чи фон чи зображення ??? */
 .hero {background-color: #2E2F42;}
 /* заголовок */
-.title-text {font-size: 56px;
+.hero .title-text {font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
