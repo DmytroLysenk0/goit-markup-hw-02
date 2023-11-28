@@ -4,25 +4,29 @@ body {font-family: "Roboto", sans-serif;
 /* del markers ul */
 ul {list-style-type: none;}
 /* прибрав підкреслення з посилань */
-.logo, .list-link {text-decoration: none;}
-/* header */
-/* logo Web Studio */
-.nav-list {font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;}
+.logo, .list-link, .logo-footer {text-decoration: none;}
 
+/* -------------------------------------------------- */
+
+/* header */
+
+/* logo Web Studio */
+
+.nav-list {font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
 .logo {font-size: 18px;
-color: #4d5ae5;
-letter-spacing: 0.03em;}
+    color: #4d5ae5;
+    letter-spacing: 0.03em;}
 .logo-link-header {color: #2e2f42;}
 .list-link {font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;}
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
 .list-link:hover {color: #404bbf;}
 .list-link:focus {color: #404bbf;}
 .nav-list:hover {color: #404BBF;}
@@ -45,20 +49,22 @@ color: #2e2f42;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
-    
+    color: #434455;}   
 .contacts {font-style: normal;}
 .contacts-list .link:hover {color: #404BBF;}
 .contacts-list .link:focus {color: #404BBF;}
+
 /* секція Герой ???? чи фон чи зображення ??? */
+
 .hero {background-color: #2E2F42;}
-/* заголовок */
 .hero-text {font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
-}
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;}
+
+/* button */
+
 .hero-button {background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -67,17 +73,8 @@ color: #ffffff;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;}
-    .hero-button:hover {background-color: #404BBF;}
-    .hero-button:focus {background-color: #404BBF;}
-
-/* .hero .title-text {font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;} */
-
-/* button */
-
+.hero-button:hover {background-color: #404BBF;}
+.hero-button:focus {background-color: #404BBF;}
 
 /* section Feauture */
 
@@ -91,9 +88,10 @@ color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
-    }
-    /* команда є суміжні */
+    letter-spacing: 0.32px;}
+
+/* team */
+
 .team {background-color: #F4F4FD;}
 .title-team {color:#2E2F42;
     text-align: center;
@@ -106,11 +104,17 @@ color: #ffffff;
     text-transform: capitalize;}
 .team-list {background-color: #FFFFFF;}
 .text-team {font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-        }
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
+.text-team {text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
 .member-team {color:#2E2F42;
     text-align: center;
     font-family: Roboto;
@@ -120,22 +124,16 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.4px;}
 .app {color:#2E2F42;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;}
-.text-team {text-align: center;
+    text-align: center;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;}
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;}
 
     /* Our Portfolio */
+
 .title-portfolio {color:#2E2F42;
     text-align: center;
     font-family: Roboto;
@@ -146,15 +144,16 @@ color: #ffffff;
     letter-spacing: 0.72px;
     text-transform: capitalize;}
 .text-app {text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;}
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
 
 
 /* footer */
+
 .footer {background-color: #2E2F42;}
 .logo-footer {font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -162,11 +161,8 @@ color: #ffffff;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    font-weight: 700;}
-    
+    font-weight: 700;}    
 .logo-link-footer {color: #f4f4fd;}
-
-
 .text-footer {color:#F4F4FD;
     font-family: Roboto;
     font-size: 16px;
